@@ -1,0 +1,20 @@
+{
+	"name": "tableit",
+	"version": "1.0.0",
+	"description": "Easily format HTML tables with predefined styles.",
+	"main": "src/index.js",
+	"type": "module",
+	"scripts": {
+		"test": "mocha --require esm \"test/**/*.test.mjs\""
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.10"
+	},
+	"devDependencies": {
+		"mocha": "^10.0.0",
+		"chai": "^4.3.4",
+		"esm": "^3.2.25"
+	},
+	"author": "",
+	"license": "ISC"
+}
