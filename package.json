@@ -26,10 +26,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/pxperfectmike/tableit.git"
+		"url": "git+https://github.com/pxperfectmike/easy-html-tables.git"
 	},
 	"bugs": {
-		"url": "https://github.com/pxperfectmike/tableit/issues"
+		"url": "https://github.com/pxperfectmike/easy-html-tables/issues"
 	},
-	"homepage": "https://github.com/pxperfectmike/tableit#readme"
+	"homepage": "https://github.com/pxperfectmike/easy-html-tables#readme"
 }

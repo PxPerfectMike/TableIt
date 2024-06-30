@@ -1,17 +1,17 @@
-# TableIt
+# EasyTable
 
-TableIt is a Node.js package for easily formatting HTML tables with predefined styles.
+EasyTable is a Node.js package for easily formatting HTML tables with predefined styles.
 
 ## Installation
 
 ```sh
-npm install tableit
+npm install easy-html-tables
 ```
 
 ## Usage
 
 ```javascript
-const TableIt = require('tableit');
+const EasyTable = require('easy-html-tables');
 
 const html = `
     <table>
@@ -26,8 +26,8 @@ const html = `
     </table>
 `;
 
-const tableIt = new TableIt(html);
-const formattedTable = tableIt.generate();
+const easyTable = new EasyTable(html);
+const formattedTable = easyTable.generate();
 console.log(formattedTable);
 ```
 
@@ -42,8 +42,8 @@ const customStyles = {
 	td: { 'font-style': 'italic' },
 };
 
-const tableIt = new TableIt(html, { styles: customStyles });
-const formattedTable = tableIt.generate();
+const easyTable = new EasyTable(html, { styles: customStyles });
+const formattedTable = easyTable.generate();
 console.log(formattedTable);
 ```
 
@@ -51,4 +51,4 @@ console.log(formattedTable);
 
 Please open an issue or submit a pull request for any enhancements or bugs.
 
-# TableIt
+# EasyTable
