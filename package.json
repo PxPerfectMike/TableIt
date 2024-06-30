@@ -1,5 +1,5 @@
 {
-	"name": "tableit",
+	"name": "east-html-tables",
 	"version": "1.0.0",
 	"description": "Easily format HTML tables with predefined styles.",
 	"main": "src/index.js",

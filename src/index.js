@@ -2,7 +2,7 @@ import { parseTable } from './parser.js';
 import { applyFormatting } from './formatter.js';
 import defaultStyles from './styles.js';
 
-class TableIt {
+class EasyTable {
 	constructor(html, options = {}) {
 		this.html = html;
 		this.styles = options.styles || defaultStyles;
@@ -14,4 +14,4 @@ class TableIt {
 	}
 }
 
-export default TableIt;
+export default EasyTable;

@@ -1,7 +1,7 @@
-import TableIt from '../src/index.js';
+import EasyTable from '../src/index.js';
 import { expect } from 'chai';
 
-describe('TableIt', () => {
+describe('EasyTable', () => {
 	it('should format an HTML table correctly', () => {
 		const html = `
             <table>
@@ -16,8 +16,8 @@ describe('TableIt', () => {
             </table>
         `;
 
-		const tableIt = new TableIt(html);
-		const result = tableIt.generate();
+		const easyTable = new EasyTable(html);
+		const result = easyTable.generate();
 
 		expect(result).to.include('border: 1px solid black;');
 		expect(result).to.include('padding: 8px;');
