@@ -1,5 +1,5 @@
 {
-	"name": "tableit",
+	"name": "TableIt",
 	"version": "1.0.0",
 	"description": "Easily format HTML tables with predefined styles.",
 	"main": "src/index.js",
@@ -15,6 +15,21 @@
 		"chai": "^4.3.4",
 		"esm": "^3.2.25"
 	},
-	"author": "",
-	"license": "ISC"
+	"author": "Michael Baker",
+	"license": "MIT",
+	"keywords": [
+		"html",
+		"table",
+		"formatter",
+		"styles",
+		"node"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pxperfectmike/tableit.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pxperfectmike/tableit/issues"
+	},
+	"homepage": "https://github.com/pxperfectmike/tableit#readme"
 }
